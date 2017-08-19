@@ -15,7 +15,7 @@
   },
   "scripts": {
     "postinstall": "npip install",
-    "test": "xo && nyc ava"
+    "test": "xo"
   },
   "files": [
     "src/index.js",
@@ -33,9 +33,6 @@
     "nopy": "0.2.3"
   },
   "devDependencies": {
-    "ava": "0.17.0",
-    "coveralls": "2.11.12",
-    "nyc": "10.0.0",
     "xo": "0.17.0"
   },
   "nyc": {

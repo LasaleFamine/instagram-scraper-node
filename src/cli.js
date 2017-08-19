@@ -3,7 +3,7 @@
 const meow = require('meow');
 const instagramScraperNode = require('.');
 
-const cli = meow(`
+meow(`
 	Usage
 	  $ instagram-scraper-node [input]
 
@@ -47,4 +47,4 @@ const cli = meow(`
 		$ instagram-scraper-node --tag <hashtag-without-hash>
 `);
 
-instagramScraperNode(cli.input[0], process.argv.slice(2));
+instagramScraperNode(process.argv.slice(2));
