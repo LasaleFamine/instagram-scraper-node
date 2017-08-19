@@ -1,0 +1,8 @@
+node_modules
+.nyc_output
+coverage
+
+# Python things to ignore
+python_modules
+__pycache__
+*.pyc

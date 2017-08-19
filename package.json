@@ -1,0 +1,52 @@
+{
+  "name": "instagram-scraper-node",
+  "version": "0.0.0",
+  "description": "Wrapper of Python instagram-scraper using nopy",
+  "license": "MIT",
+  "repository": "LasaleFamine/instagram-scraper-node",
+  "author": {
+    "name": "LasaleFamine",
+    "email": "info@godev.space",
+    "url": "godev.space"
+  },
+  "bin": "src/cli.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "postinstall": "npip install",
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "src/index.js",
+    "src/cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "instagram-scraper",
+    "scraper"
+  ],
+  "dependencies": {
+    "execa": "0.8.0",
+    "meow": "3.7.0",
+    "nopy": "0.2.3"
+  },
+  "devDependencies": {
+    "ava": "0.17.0",
+    "coveralls": "2.11.12",
+    "nyc": "10.0.0",
+    "xo": "0.17.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
+  "python": {
+    "dependencies": {
+      "instagram-scraper": ">=1.5.3"
+    }
+  }
+}
