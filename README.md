@@ -1,4 +1,4 @@
-# instagram-scraper-node
+# instagram-scraper-node [![Build Status](https://travis-ci.org/LasaleFamine/instagram-scraper-node.svg?branch=master)](https://travis-ci.org/LasaleFamine/instagram-scraper-node)
 
 > Wrapper interface in NodeJs of the Python [instagram-scraper](https://github.com/rarcega/instagram-scraper). Using [nopy](https://www.npmjs.com/package/nopy).
 
