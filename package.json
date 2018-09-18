@@ -20,7 +20,8 @@
   },
   "files": [
     "src/index.js",
-    "src/cli.js"
+    "src/cli.js",
+    "src/run.js"
   ],
   "keywords": [
     "cli-app",
