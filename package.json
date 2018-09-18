@@ -9,6 +9,7 @@
     "email": "info@godev.space",
     "url": "godev.space"
   },
+  "main": "src/index.js",
   "bin": "src/cli.js",
   "engines": {
     "node": ">=6"
